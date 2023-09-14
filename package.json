@@ -1,0 +1,13 @@
+{
+  "name": "study-nest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:client": "pnpm --filter \"@study-nest/clint\" dev",
+    "dev:service": "pnpm --filter \"@study-nest/service\" start:dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
