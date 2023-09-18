@@ -8,22 +8,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AppService = void 0;
 const common_1 = require("@nestjs/common");
-const SvgCaptcha = require("svg-captcha");
 let AppService = class AppService {
     getHello() {
         return 'Hello World!';
-    }
-    getCaptcha() {
-        const captcha = SvgCaptcha.create({
-            size: 4,
-            width: 100,
-            height: 40,
-            background: '#ccc',
-        });
-        return captcha;
-    }
-    login() {
-        return `login`;
     }
 };
 exports.AppService = AppService;
